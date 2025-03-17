@@ -938,13 +938,21 @@ input, select, textarea {
 				width: 2.25rem;
 			}
 
+				ul.icons li a {
+					transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+					display: inline-block; /* Ensures transform works properly */
+				}
+				
 				ul.icons li a:hover {
-					background-color: rgba(255, 255, 255, 0.075);
+					background-color: rgba(0, 123, 255, 0.1); /* Light blue hover */
+					transform: scale(1.1); /* Slightly enlarges */
 				}
-
+				
 				ul.icons li a:active {
-					background-color: rgba(255, 255, 255, 0.175);
+					background-color: rgba(0, 123, 255, 0.2); /* Darker blue when clicked */
+					transform: scale(0.95); /* Shrinks slightly when clicked */
 				}
+			
 
 /* Table */
 
@@ -1386,13 +1394,22 @@ input, select, textarea {
 					border-bottom: 0;
 				}
 
-					#header nav ul li a:hover {
-						background-color: rgba(255, 255, 255, 0.075);
-					}
-
-					#header nav ul li a:active {
-						background-color: rgba(255, 255, 255, 0.175);
-					}
+				/* LIST */
+				#header nav ul li a {
+					transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+					display: inline-block; /* Ensures transform works properly */
+				}
+				
+				#header nav ul li a:hover {
+					background-color: rgba(0, 123, 255, 0.1); /* Light blue hover */
+					transform: scale(1.05); /* Slightly enlarges */
+				}
+				
+				#header nav ul li a:active {
+					background-color: rgba(0, 123, 255, 0.2); /* Darker blue when clicked */
+					transform: scale(0.95); /* Shrinks slightly when clicked */
+				}
+				
 
 		#header nav.use-middle:after {
 			content: '';
