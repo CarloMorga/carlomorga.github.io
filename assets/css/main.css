@@ -664,18 +664,7 @@ input, select, textarea {
 	
 /* Image */
 
-.project-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    width: 100%; /* Adjusts to screen size */
-    max-width: 600px; /* Prevents stretching on large screens */
-    aspect-ratio: 16 / 9; /* Keeps a consistent size */
-    margin: auto;
-    overflow: hidden;
-	height: auto;
-}
+
 
 .image {
     border-radius: 4px;
@@ -786,17 +775,14 @@ input, select, textarea {
 			.arrow {
 				display: flex;  /* Ensure proper spacing */
 				align-items: center;  /* Center the icon */
-				font-size: 2em;  /* Scale based on parent */
+				font-size: 18px;  /* Scale based on parent */
 				cursor: pointer;
 				color: #fff;
-				background: none !important;
-				border: none !important;
-				outline: none !important;
-				box-shadow: none !important;
+				
 				padding: 0.5em;  /* Adjust spacing dynamically */
 				width: auto;  /* Let it resize automatically */
 				height: auto;  /* Let it resize automatically */
-				transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+				transition: transform 0.1s ease-in-out, ease-in-out;
 			}
 			
 			
@@ -815,8 +801,7 @@ input, select, textarea {
 			
 			/* Add a slight scale effect on hover */
 			.arrow:hover{
-				
-				transform: scale(1.2); /* Slightly bigger on hover */
+				background-color:rgba(0, 123, 255, 0.1);
 			}
 
 			/* Optional: Add focus or active effect */
