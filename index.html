@@ -6,6 +6,7 @@
 -->
 <html>
 	<head>
+		<link rel="icon" type="image/png" href="/images/cm-logo.png">
 		<title>Carlo Morga</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -22,7 +23,7 @@
 						
 						<div class="content">
 							<div class="inner">
-								<h1>HI! I'M CARLO MORGA</h1>
+								<h1 class = 'h1-class'>HI! I'M CARLO MORGA</h1>
 								<p> Data Analyst | Proficient in MS Excel, SQL, Python, Tableau & Power BI
 							</div>
 						</div>
@@ -43,41 +44,72 @@
 							<article id="intro">
 								<h2 class="major">About me</h2>
 								<span class="image main"><img src="images/Adobe Express - file (1).png" alt="" /></span>
-								<p  class="project-text"> Hi, I’m Carlo Morga, a Computer Science graduate from Cavite State University
+								<p class="font-desc"> Hi, I’m Carlo Morga, a Computer Science graduate from Cavite State University
 									 - Main Campus, passionate about Data Analytics. I love turning data 
 									 into insights and creating impactful visualizations. Always eager to learn and improve! 
 									<a href="#project"> - Check out my projects!</a></p>
 							
 							</article>
 
-						<!-- Work -->
-							<article id="project">
-								<h2 class="major">Project</h2>
-								
-								<span class="image main"><a href="https://public.tableau.com/shared/5ZCG5PWDM?:display_count=n&:origin=viz_share_link" 
-									class="hover-image" target="_blank">
-									<img src="images/pedal-profit.png" alt="" /></a></span>
-								<p class="project-text" >Pedal to Profit: BikeShop Dashboard by Tableau</p>
-								<br>
-		
-								
-							</article>
+						<!-- Project -->
+						<article id="project">
+							<h2 class="major">Projects</h2>
+						
+							<div class="project-container">
+								<button class="arrow left">&#10094;</button>
+						
+								<div class="project-wrapper">
+									<span class="image main">
+										<a href="https://public.tableau.com/shared/5ZCG5PWDM?:display_count=n&:origin=viz_share_link" 
+											class="hover-image" target="_blank">
+											<img src="images/pedal-profit.png" alt="Pedal to Profit" class="project-image" />
+										</a>
+									</span>
+									<p class="project-text">Pedal to Profit: BikeShop Dashboard by Tableau</p> <!-- This text should change -->
+								</div>
+						
+								<button class="arrow right">&#10095;</button>
+							</div>
+						</article> 
+						
+						
+						
 
-						<!-- About -->
-							<article id="about">
-								<h2 class="major">About</h2>
-								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
-								<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
-							</article>
+						
 
 						<!-- Contact -->
 							<article id="contact">
 								<h2 class="major">Contacts</h2>
+
+								<!-- Send Message
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="4"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Reset" /></li>
+									</ul>
+								</form>
+								-->
+
 								<ul class="icons" >
 									<li><a href="https://www.linkedin.com/in/carlo-morga-94b27b322/" class="icon brands fa-linkedin" target="_blank"><span class="label">LinkedIn</span> </a></li>
-									<li><a href="https://www.facebook.com/morgs.crl" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
-									<li><a href="https://www.instagram.com/cimorgz/" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
 									<li><a href="https://github.com/CarloMorga" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+									<li><a href="https://mail.google.com/mail/?view=cm&to=carlomorga421@gmail.com" class="icon fa-envelope" target="_blank"><span class="label">Email</span></a></li>
+									<li><a href="https://www.facebook.com/morgs.crl" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
+																		
 								</ul>
 							</article>
 
@@ -141,7 +173,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 									<ul class="icons">
 										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Email</span></a></li>
 										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
 									</ul>
 

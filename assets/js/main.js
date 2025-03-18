@@ -398,4 +398,63 @@
 						$main._show(location.hash.substr(1), true);
 					});
 
+
+					//Projects
+					window.onload = function() {
+						//List of projects
+						const projects = [
+							{ 
+								img: "images/pedal-profit.png", 
+								link: "https://public.tableau.com/shared/5ZCG5PWDM?:display_count=n&:origin=viz_share_link", 
+								text: "Pedal to Profit: BikeShop Dashboard by Tableau" 
+							},
+							{ 
+								img: "images/next.png", 
+								link: "https://public.tableau.com/shared/5ZCG5PWDM?:display_count=n&:origin=viz_share_link", 
+								text: "Project 2"
+							},
+							{ 
+								img: "images/pedal-profit.png", 
+								link: "https://public.tableau.com/shared/5ZCG5PWDM?:display_count=n&:origin=viz_share_link", 
+								text: " 3 Pedal to Profit: BikeShop Dashboard by Tableau 3" 
+							},
+							
+						];
+					
+						let currentIndex = 0;
+					
+						function updateProject() {
+							const imgElement = document.querySelector(".project-image");
+							const linkElement = document.querySelector(".hover-image");
+							const textElement = document.querySelector(".project-text"); // Make sure this exists
+					
+							if (imgElement && linkElement && textElement) {
+								imgElement.src = projects[currentIndex].img;
+								linkElement.href = projects[currentIndex].link;
+								textElement.innerText = projects[currentIndex].text; // Change the text
+							}
+						}
+					
+						function nextProject() {
+							currentIndex = (currentIndex + 1) % projects.length;
+							updateProject();
+						}
+					
+						function prevProject() {
+							currentIndex = (currentIndex - 1 + projects.length) % projects.length;
+							updateProject();
+						}
+					
+						// Attach event listeners AFTER page loads
+						document.querySelector(".arrow.left").addEventListener("click", prevProject);
+						document.querySelector(".arrow.right").addEventListener("click", nextProject);
+					
+						// Initialize the first project
+						updateProject();
+					};
+					
+					
+					
+		
+
 })(jQuery);
