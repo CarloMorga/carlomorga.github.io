@@ -846,7 +846,7 @@ input, select, textarea {
 /*Project title text*/
 
 .project-text {
-	font-size: 15px;
+	font-size: 0.9rem;
     position: relative;
 	font-family: 'Courier New', Courier, monospace;
 }
@@ -944,9 +944,9 @@ input, select, textarea {
 /* Desc Text */
 .font-desc{
 	font-family:'Courier New', Courier, monospace;
-
+	text-align: center;
 	margin-top: -15px;
-	font-size: 15px;
+	font-size: 0.9rem;
 }
 	
 /* Actions */
