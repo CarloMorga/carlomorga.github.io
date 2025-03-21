@@ -404,20 +404,17 @@
 						//List of projects
 						const projects = [
 							{ 
-								img: "images/pedal-profit.png", 
-								link: "https://public.tableau.com/shared/5ZCG5PWDM?:display_count=n&:origin=viz_share_link", 
+								img: "images/pedal-profit-project.png", 
+								link: "https://public.tableau.com/views/PedaltoProfit-FullProject/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link", 
 								text: "Pedal to Profit: BikeShop Dashboard by Tableau" 
 							},
 							{ 
-								img: "images/next.png", 
-								link: "https://public.tableau.com/shared/5ZCG5PWDM?:display_count=n&:origin=viz_share_link", 
+								img: "images/pedal-profit-project.png", 
+								link: "https://public.tableau.com/views/PedaltoProfit-FullProject/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link://public.tableau.com/shared/5ZCG5PWDM?:display_count=n&:origin=viz_share_link", 
 								text: "Project 2: Pedal to Profit: BikeShop Dashboard by Tableau"
 							},
-							{ 
-								img: "images/pedal-profit.png", 
-								link: "https://public.tableau.com/shared/5ZCG5PWDM?:display_count=n&:origin=viz_share_link", 
-								text: " 3 Pedal to Profit: BikeShop Dashboard by Tableau 3 3 "
-							},
+							
+							
 							
 						];
 					

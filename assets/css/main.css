@@ -300,10 +300,14 @@ input, select, textarea {
 		text-align: right;
 	}
 
+	
 /* H1 TITLE */
 .h1-class {
     position: relative; /* Important for pseudo-element */
     display: inline-block; /* Keeps the underline width dynamic */
+	 /* Keep the text color */
+    text-shadow: 0 0 2px rgba(255, 255, 255, 0.6); /* Softer white glow */
+	
 }
 
 /* Create a line under the text */
@@ -798,6 +802,7 @@ input, select, textarea {
 				transition: transform 0.1s ease-in-out, ease-in-out;
 				
 				
+				
 			}
 			
 			
@@ -841,20 +846,23 @@ input, select, textarea {
 /*Project title text*/
 
 .project-text {
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
 	font-size: 15px;
     position: relative;
-    height: auto;
-	width: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-	bottom: 20px;
-    overflow: hidden; /* Prevent text from exceeding height */
-    white-space: normal; /* Allow multiple lines if needed */
-	margin-bottom: 10%;
-	
+}
+
+/* Add the arrow */
+.project-text::after {
+    content: '→'; /* Arrow with no extra space */
+    font-size: 18px;
+    color: whitesmoke; /* Default arrow color */
+    margin-left: 10px; /* Small space between text and arrow */
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+/* Hover effect for the arrow only */
+.project-text:hover::after {
+    transform: translateX(3px); /* Slight move to the right */
+    color: #f39c12; /* Change arrow color on hover */
 }
 
 
@@ -937,7 +945,7 @@ input, select, textarea {
 	font-family:'Courier New', Courier, monospace;
 
 	margin-top: -15px;
-	font-size: 15px;
+	font-size: small;
 }
 	
 /* Actions */
@@ -1289,7 +1297,7 @@ input, select, textarea {
 		-webkit-transform: scale(1.0);
 		-ms-transform: scale(1.0);
 		transform: scale(1.0);
-		
+		background-color: #242124;
 		position: fixed;
 		top: 0;
 		left: 0;
@@ -1336,7 +1344,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/cool-background.png");
+			
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
