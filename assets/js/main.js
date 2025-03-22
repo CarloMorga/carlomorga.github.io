@@ -406,7 +406,8 @@
 							{ 
 								img: "images/pedal-profit-project.png", 
 								link: "https://public.tableau.com/views/PedaltoProfit-FullProject/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link", 
-								text: "Pedal to Profit: BikeShop Dashboard by Tableau" 
+								text: "Pedal to Profit: BikeShop Dashboard by Tableau - " ,
+								textLink: "https://github.com/CarloMorga/Pedal-to-Profit-Data-Analysis",
 							},
 							{ 
 								img: "images/pedal-profit-project.png", 
@@ -424,13 +425,23 @@
 							const imgElement = document.querySelector(".project-image");
 							const linkElement = document.querySelector(".hover-image");
 							const textElement = document.querySelector(".project-text"); // Make sure this exists
-					
+						
 							if (imgElement && linkElement && textElement) {
 								imgElement.src = projects[currentIndex].img;
 								linkElement.href = projects[currentIndex].link;
-								textElement.innerText = projects[currentIndex].text; // Change the text
+						
+								// Create a link dynamically in the text if textLink exists
+								if (projects[currentIndex].textLink) {
+									textElement.innerHTML = `
+										${projects[currentIndex].text} 
+										<a href="${projects[currentIndex].textLink}" target="_blank" class="project-link">View more</a>
+									`;
+								} else {
+									textElement.innerText = projects[currentIndex].text;
+								}
 							}
 						}
+						
 					
 						function nextProject() {
 							currentIndex = (currentIndex + 1) % projects.length;

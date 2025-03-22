@@ -844,27 +844,52 @@ input, select, textarea {
 
 		}
 /*Project title text*/
-
-.project-text {
+.project-text{
 	font-size: 0.9rem;
+	font-family: monospace;
+}
+.project-link {
     position: relative;
-	font-family: 'Courier New', Courier, monospace;
+     /* Optional: Change link color */
+    text-decoration: none !important; /* Removes default underline */
 }
 
-/* Add the arrow */
+.project-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0px; /* Space between text and underline */
+    width: 100%;
+    height: 1px;
+    background: #f39c12; /* Line color */
+    transform: scaleX(0); /* Hidden by default */
+    transform-origin: left;
+    transition: transform 0.3s ease-in-out;
+	text-decoration: none;
+}
+
+.project-link:hover::after {
+    transform: scaleX(1); /* Show underline on hover */
+	
+}
+
+
+
+
+/* Add the arrow 
 .project-text::after {
-    content: '→'; /* Arrow with no extra space */
+    content: '→'; 
     font-size: 18px;
-    color: whitesmoke; /* Default arrow color */
-    margin-left: 10px; /* Small space between text and arrow */
+    color: whitesmoke; 
+    margin-left: 10px; 
     transition: transform 0.2s ease, color 0.2s ease;
 }
 
-/* Hover effect for the arrow only */
+
 .project-text:hover::after {
-    transform: translateX(3px); /* Slight move to the right */
-    color: #f39c12; /* Change arrow color on hover */
-}
+    transform: translateX(3px);
+    color: #f39c12; 
+} */
 
 
 
@@ -943,7 +968,7 @@ input, select, textarea {
 		}
 /* Desc Text */
 .font-desc{
-	font-family:'Courier New', Courier, monospace;
+	font-family:monospace;
 	text-align: center;
 	margin-top: -15px;
 	font-size: 0.9rem;
