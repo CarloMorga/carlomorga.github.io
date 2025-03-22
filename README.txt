@@ -1,30 +1,29 @@
-Dimension by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
+# Carlo Morga's Portfolio Website 🌐
 
-This is Dimension, a fun little one-pager with modal-ized (is that a word?) "pages"
-and a cool depth effect (click on a menu item to see what I mean). Simple, fully
-responsive, and kitted out with all the usual pre-styled elements you'd expect.
-Hope you dig it :)
+Welcome to my portfolio website, where I showcase my expertise in **Data Analytics**, Web Development and technology. This site is built using **Dimension** by [HTML5 UP](https://html5up.net), featuring a sleek, responsive design with interactive modal-style pages that enhance the user experience.
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+## 🎯 Purpose of the Website
+- **Highlight My Skills and Projects:** A platform to demonstrate my technical capabilities, completed projects, and professional journey.  
+- **Interactive User Experience:** Designed to provide smooth transitions and seamless navigation across different sections.  
+- **Mobile and Desktop Optimized:** Fully responsive design ensuring a consistent experience on all devices.  
 
-(* = not included)
+## 🛠️ Technologies Used
 
-AJ
-aj@lkn.io | @ajlkn
+### Data Analytics Stack
+- **Microsoft Excel:** For data analysis, pivot tables, and visualization.  
+- **SQL:** To query and manipulate data efficiently.  
+- **Python:** For data processing, analysis, and automation.  
+- **Tableau:** To create interactive and insightful dashboards.  
+- **Power BI:** For building business intelligence reports and visualizing data effectively.  
 
+### Web Development Stack
+- **HTML5, CSS3, JavaScript:** Core technologies used to develop and style the site.  
+- **jQuery:** For implementing dynamic and interactive features.  
+- **Font Awesome:** To enhance the visual appeal with modern icons.  
 
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+## 📬 Get in Touch
+I’m always open to discussing new opportunities and collaborations. Feel free to reach out!  
+**Email:** <a href= "https://mail.google.com/mail/u/0/?to=carlomorga421@gmail.com&fs=1&tf=cm">carlomorga421@gmail.com</a>
+**LinkedIn:** <a href= "https://www.linkedin.com/in/carlo-morga-94b27b322/" > Carlo Morga</a> 
+**GitHub:** <a href = "https://github.com/CarloMorga">Carlo Morga</a>
