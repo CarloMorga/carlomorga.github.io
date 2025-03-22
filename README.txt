@@ -1,4 +1,3 @@
-
 # Carlo Morga's Portfolio Website 🌐
 
 Welcome to my portfolio website, where I showcase my expertise in **Data Analytics**, Web Development and technology. This site is built using **Dimension** by [HTML5 UP](https://html5up.net), featuring a sleek, responsive design with interactive modal-style pages that enhance the user experience.
