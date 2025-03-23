@@ -26,8 +26,8 @@ Welcome to my portfolio website, where I showcase my expertise in data analytics
 
 ## 📬 Get in Touch
 I’m always open to discussing new opportunities and collaborations. Feel free to reach out!  
-**Email:** <a href="https://github.com/CarloMorga/Pedal-to-Profit---Dashboard/blob/main/Pedal%20to%20Profit%20-%20Data.xlsx](https://mail.google.com/mail/u/0/?to=carlomorga421@gmail.com&fs=1&tf=cm)">carlo.morga421@gmail.com</a>
-**LinkedIn:** <a href="https://www.linkedin.com/in/carlo-morga-94b27b322/">Carlo Morga</a>
-**GitHub:** <a href="https://github.com/CarloMorga">Carlo Morga</a>
+- **Email:** <a href="https://github.com/CarloMorga/Pedal-to-Profit---Dashboard/blob/main/Pedal%20to%20Profit%20-%20Data.xlsx](https://mail.google.com/mail/u/0/?to=carlomorga421@gmail.com&fs=1&tf=cm)">carlo.morga421@gmail.com</a>
+- **LinkedIn:** <a href="https://www.linkedin.com/in/carlo-morga-94b27b322/">Carlo Morga</a>
+- **GitHub:** <a href="https://github.com/CarloMorga">Carlo Morga</a>
 
 
